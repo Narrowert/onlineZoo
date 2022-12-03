@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Donates</title>
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="logo">
+                    <a href="#" class="logo__link"></a>
+                </div>
+                <nav class="nav">
+                    <ul class="nav__list list__reset">
+                        <li class="nav-list__item"><a href="index.html#about" class="nav-item__link">About</a></li>
+                        <li class="nav-list__item"><a href="#contacts" class="nav-item__link">Map</a></li>
+                        <li class="nav-list__item"><a href="index.html#zoos" class="nav-item__link">Zoos</a></li>
+                        <li class="nav-list__item"><a href="index.html" class="nav-item__link">Donate</a></li>
+                        <li class="nav-list__item"><a href="#contacts" class="nav-item__link">Contact us</a></li>
+                    </ul>
+                </nav>
+                <div class="copyright">Designed by&nbsp;&copy;</div>
+                <button class="burger btn__reset">
+                    <span class="burger__line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="section donate__section"></section>
+
+    <section class="pickfeed__section">
+        <div class="container">
+            <h1 class="pickfeed__title">THE ZOO HAS OFFICIALLY REOPENED BUT WE&nbsp;STILL&nbsp;NEED YOUR HELP!</h1>
+            <p class="pickfeed__descr">Even though the Zoo has been able to&nbsp;reopen, we&nbsp;are at&nbsp;a&nbsp;greatly reduced capacity with educational programs and public and private events cancelled or&nbsp;postponed for additional months. We&nbsp;need you now more than ever to&nbsp;help ensure that we&nbsp;overcome these challenges. We&nbsp;have been actively raising funds in&nbsp;the community, and we&nbsp;are grateful for the generosity. But much more support is&nbsp;still needed, and we&nbsp;need your help! Please consider a&nbsp;gift today&nbsp;&mdash; no&nbsp;matter what size&nbsp;&mdash; to&nbsp;help&nbsp;us sustain our mission.</p>
+            <h2 class="pickfeed__subtitle">Donation Information</h2>
+            <div class="donation__inner">
+                <h2 class="donation__title">Pick and feed a&nbsp;friend</h2>
+                <p class="donation__subtitle">We&nbsp;know the animals bring you joy, and in&nbsp;these extraordinary times, we&rsquo;re glad.</p>
+                <div class="donation__info">
+                    <div class="donation__diet">
+                        <div class="donation-diet__number">
+                            <p class="donation-number__title">4</p>
+                            <p class="donation-number__subtitle">Panda diet for the day.</p>
+                        </div>
+                        <div class="donation-diet__icon"></div>
+                        <div class="donation-diet__img">
+                            <img src="pictures/svg/panda.svg" alt="">
+                        </div>
+                    </div>
+                    <p class="donation-top__descr">Amount</p>
+                    <ul class="donation-price__list list__reset">
+                        <li class="donation-price__item donation-price__5000">
+                            <input type="radio" name="radio__group" class="price-item__input" id="price-input__1" data-price="5000">
+                            <label for="price-input__1" class="price-item__label"><span>$5000</span></label>
+                         </li>
+                        <li class="donation-price__item donation-price__2000">
+                            <input type="radio" name="radio__group" class="price-item__input" id="price-input__2" data-price="2000">
+                            <label for="price-input__2" class="price-item__label"><span>$2000</span></label>
+                        </li>
+                        <li class="donation-price__item donation-price__1000">
+                            <input type="radio" name="radio__group" class="price-item__input" id="price-input__3" data-price="1000">
+                            <label for="price-input__3" class="price-item__label"><span>$1000</span></label>
+                        </li>
+                        <li class="donation-price__item">
+                            <input type="radio" name="radio__group" class="price-item__input" id="price-input__4" data-price="500">
+                            <label for="price-input__4" class="price-item__label"><span>$500</span></label>
+                        </li>
+                        <li class="donation-price__item">
+                            <input type="radio" name="radio__group" class="price-item__input" id="price-input__5" data-price="250">
+                            <label for="price-input__5" class="price-item__label"><span>$250</span></label>
+                        </li>
+                        <li class="donation-price__item">
+                            <input type="radio" name="radio__group" class="price-item__input" id="price-input__6" data-price="100">
+                            <label for="price-input__6" class="price-item__label"><span>$100</span></label>
+                        </li>
+                        <li class="donation-price__item">
+                            <input type="radio" name="radio__group" class="price-item__input" id="price-input__7" data-price="50">
+                            <label for="price-input__7" class="price-item__label"><span>$50</span></label>
+                        </li>
+                        <li class="donation-price__item">
+                            <input type="radio" name="radio__group" class="price-item__input" id="price-input__8" data-price="25">
+                            <label for="price-input__8" class="price-item__label"><span>$25</span></label>
+                        </li>
+                    </ul>
+                    <div class="donation-amount__input">
+                        <input type="text" class="donation__input" id="donation__input" placeholder="Another amount" onkeypress='validate(event)'> 
+                    </div>
+                    <ul class="donation-amount__period list__reset">
+                        <li class="donation-period__item">
+                            <input type="radio" name="period__group" class="period-item__input" id="period-input__1">
+                            <label for="period-input__1" class="period-item__label">Monthly</label>
+                        </li>
+                        <li class="donation-period__item">
+                            <input type="radio" name="period__group" class="period-item__input" id="period-input__2">
+                            <label for="period-input__2" class="period-item__label">Once</label>
+                        </li>
+                    </ul>
+                    <button class="donation__btn btn__reset"><a href="#" class="donation-btn__link">Feed a&nbsp;friend now</a></button>
+                    <p class="donation-bottom__descr">Share with your friends on&nbsp;social networks</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contacts">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer-inner__top">
+                    <div class="logo">
+                        <a href="#" class="logo__link footer-logo__link"></a>
+                    </div>
+                    <div class="footer__subscribe">
+                        <h3 class="subscribe__title">Subscribe to&nbsp;our news</h3>
+                        <div class="subscribe__content">
+                            <input type="mail" class="footer__input" placeholder="Enter your email">
+                            <button class="footer-subscribe__btn btn__reset">Submit</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="footer__btn testimonials__btn animals__btn btn__reset"><a href="#" class="main__link">donate for volunteers</a></button>
+                <ul class="footer__socials list__reset">
+                    <li class="socials__item">
+                        <a href="#" class="socials__link">
+                            <div class="socials__icon socials__icon-facebook"></div>
+                            <p class="socials__subtitle">Facebook</p>
+                        </a>
+                    </li>
+                    <li class="socials__item twitter">
+                        <a href="#" class="socials__link">
+                            <div class="socials__icon socials__icon-twitter"></div>
+                            <p class="socials__subtitle">Twitter</p>
+                        </a>
+                    </li>
+                    <li class="socials__item instagram">
+                        <a href="#" class="socials__link">
+                            <div class="socials__icon socials__icon-instagram"></div>
+                            <p class="socials__subtitle">Instagram</p>
+                        </a>
+                    </li>
+                    <li class="socials__item youtube">
+                        <a href="#" class="socials__link">
+                            <div class="socials__icon socials__icon-youtube"></div>
+                            <p class="socials__subtitle">Youtube</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <p>Designed by&nbsp;Alisa Samborskaya</p>
+                <p>&copy;RSSchool &amp;&nbsp;&copy;Yem Digital 2021</p>
+            </div>
+        </div>
+    </footer>
+
+<div class="overlay"></div>
+</div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="javascript/burger.js"></script>
+<script src="javascript/donation.js"></script>
+</html>
